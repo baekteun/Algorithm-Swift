@@ -57,9 +57,17 @@
 		4604B028271D5FBC00CDFBD9 /* Algorithm-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				4604B029271D5FBC00CDFBD9 /* main.swift */,
+				4604B030271D5FC100CDFBD9 /* prime_count */,
 			);
 			path = "Algorithm-Swift";
+			sourceTree = "<group>";
+		};
+		4604B030271D5FC100CDFBD9 /* prime_count */ = {
+			isa = PBXGroup;
+			children = (
+				4604B029271D5FBC00CDFBD9 /* main.swift */,
+			);
+			path = prime_count;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
