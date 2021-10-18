@@ -18,7 +18,6 @@ for i in 1...n{
         count += 1
     }
 }
-
 print(count)
 
 
