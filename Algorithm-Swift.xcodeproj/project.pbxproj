@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4604B02A271D5FBC00CDFBD9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4604B029271D5FBC00CDFBD9 /* main.swift */; };
+		4604B033271D64F000CDFBD9 /* withDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4604B032271D64F000CDFBD9 /* withDog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		4604B026271D5FBC00CDFBD9 /* Algorithm-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4604B029271D5FBC00CDFBD9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4604B029271D5FBC00CDFBD9 /* prime_count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prime_count.swift; sourceTree = "<group>"; };
+		4604B032271D64F000CDFBD9 /* withDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withDog.swift; sourceTree = "<group>"; };
+		4604B034271D667300CDFBD9 /* dog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		4604B028271D5FBC00CDFBD9 /* Algorithm-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				4604B031271D64E900CDFBD9 /* withDog */,
 				4604B030271D5FC100CDFBD9 /* prime_count */,
 			);
 			path = "Algorithm-Swift";
@@ -65,9 +68,18 @@
 		4604B030271D5FC100CDFBD9 /* prime_count */ = {
 			isa = PBXGroup;
 			children = (
-				4604B029271D5FBC00CDFBD9 /* main.swift */,
+				4604B029271D5FBC00CDFBD9 /* prime_count.swift */,
 			);
 			path = prime_count;
+			sourceTree = "<group>";
+		};
+		4604B031271D64E900CDFBD9 /* withDog */ = {
+			isa = PBXGroup;
+			children = (
+				4604B032271D64F000CDFBD9 /* withDog.swift */,
+				4604B034271D667300CDFBD9 /* dog.json */,
+			);
+			path = withDog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4604B02A271D5FBC00CDFBD9 /* main.swift in Sources */,
+				4604B033271D64F000CDFBD9 /* withDog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
