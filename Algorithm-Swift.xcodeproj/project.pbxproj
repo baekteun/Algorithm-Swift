@@ -6,10 +6,6 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		4604B033271D64F000CDFBD9 /* withDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4604B032271D64F000CDFBD9 /* withDog.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		4604B024271D5FBC00CDFBD9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -27,6 +23,7 @@
 		4604B029271D5FBC00CDFBD9 /* prime_count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prime_count.swift; sourceTree = "<group>"; };
 		4604B032271D64F000CDFBD9 /* withDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withDog.swift; sourceTree = "<group>"; };
 		4604B034271D667300CDFBD9 /* dog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
+		4604B052271E80C000CDFBD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +58,7 @@
 			children = (
 				4604B031271D64E900CDFBD9 /* withDog */,
 				4604B030271D5FC100CDFBD9 /* prime_count */,
+				4604B052271E80C000CDFBD9 /* README.md */,
 			);
 			path = "Algorithm-Swift";
 			sourceTree = "<group>";
@@ -140,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4604B033271D64F000CDFBD9 /* withDog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
