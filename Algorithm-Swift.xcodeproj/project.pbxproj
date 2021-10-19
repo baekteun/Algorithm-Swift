@@ -40,6 +40,7 @@
 		4604B01D271D5FBC00CDFBD9 = {
 			isa = PBXGroup;
 			children = (
+				4604B052271E80C000CDFBD9 /* README.md */,
 				4604B028271D5FBC00CDFBD9 /* Algorithm-Swift */,
 				4604B027271D5FBC00CDFBD9 /* Products */,
 			);
@@ -58,7 +59,6 @@
 			children = (
 				4604B031271D64E900CDFBD9 /* withDog */,
 				4604B030271D5FC100CDFBD9 /* prime_count */,
-				4604B052271E80C000CDFBD9 /* README.md */,
 			);
 			path = "Algorithm-Swift";
 			sourceTree = "<group>";
