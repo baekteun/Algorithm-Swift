@@ -221,5 +221,6 @@
 
 
 ## 종료
-### exit(0) -> exit code 0으로 process 종료
+### exit
+- exit(0) -> exit code 0으로 process 종료
 
