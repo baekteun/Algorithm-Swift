@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46FDAD6F2739123000590987 /* Palindrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDAD6E2739123000590987 /* Palindrom.swift */; };
+		46FDAD742739136B00590987 /* numFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDAD732739136A00590987 /* numFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,7 @@
 		4604B052271E80C000CDFBD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		46FDAD6B27390EEA00590987 /* ScoreCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCal.swift; sourceTree = "<group>"; };
 		46FDAD6E2739123000590987 /* Palindrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrom.swift; sourceTree = "<group>"; };
+		46FDAD732739136A00590987 /* numFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		4604B028271D5FBC00CDFBD9 /* Algorithm-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				46FDAD702739135D00590987 /* numFilter */,
 				46FDAD6D2739122B00590987 /* Palin */,
 				46FDAD6A27390EDC00590987 /* ScoreCal */,
 				4604B031271D64E900CDFBD9 /* withDog */,
@@ -102,6 +104,14 @@
 				46FDAD6E2739123000590987 /* Palindrom.swift */,
 			);
 			path = Palin;
+			sourceTree = "<group>";
+		};
+		46FDAD702739135D00590987 /* numFilter */ = {
+			isa = PBXGroup;
+			children = (
+				46FDAD732739136A00590987 /* numFilter.swift */,
+			);
+			path = numFilter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46FDAD6F2739123000590987 /* Palindrom.swift in Sources */,
+				46FDAD742739136B00590987 /* numFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
