@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46FDAD772739197400590987 /* cradReverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FDAD762739197400590987 /* cradReverse.swift */; };
+		46372D6C27424BDF0073E03D /* sumbOfNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46372D6B27424BDF0073E03D /* sumbOfNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		4604B032271D64F000CDFBD9 /* withDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withDog.swift; sourceTree = "<group>"; };
 		4604B034271D667300CDFBD9 /* dog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 		4604B052271E80C000CDFBD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46372D6B27424BDF0073E03D /* sumbOfNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumbOfNumber.swift; sourceTree = "<group>"; };
 		46FDAD6B27390EEA00590987 /* ScoreCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCal.swift; sourceTree = "<group>"; };
 		46FDAD6E2739123000590987 /* Palindrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrom.swift; sourceTree = "<group>"; };
 		46FDAD732739136A00590987 /* numFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numFilter.swift; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		4604B028271D5FBC00CDFBD9 /* Algorithm-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				46372D6A27424B1B0073E03D /* SumOfNumber */,
 				46FDAD752739196A00590987 /* cardReverse */,
 				46FDAD702739135D00590987 /* numFilter */,
 				46FDAD6D2739122B00590987 /* Palin */,
@@ -90,6 +92,14 @@
 				4604B034271D667300CDFBD9 /* dog.json */,
 			);
 			path = withDog;
+			sourceTree = "<group>";
+		};
+		46372D6A27424B1B0073E03D /* SumOfNumber */ = {
+			isa = PBXGroup;
+			children = (
+				46372D6B27424BDF0073E03D /* sumbOfNumber.swift */,
+			);
+			path = SumOfNumber;
 			sourceTree = "<group>";
 		};
 		46FDAD6A27390EDC00590987 /* ScoreCal */ = {
@@ -183,7 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46FDAD772739197400590987 /* cradReverse.swift in Sources */,
+				46372D6C27424BDF0073E03D /* sumbOfNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
