@@ -6,7 +6,6 @@
 //
 
 import Foundation
-var res: [Int] = []
 let t = Int(readLine()!)!
 var input = [[Int]]()
 for _ in 0..<t{
