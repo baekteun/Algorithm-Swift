@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46372D6F2742523D0073E03D /* Dia_mond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46372D6E2742523D0073E03D /* Dia_mond.swift */; };
+		46372D72274258F60073E03D /* peaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46372D71274258F60073E03D /* peaks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,8 +28,9 @@
 		4604B032271D64F000CDFBD9 /* withDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = withDog.swift; sourceTree = "<group>"; };
 		4604B034271D667300CDFBD9 /* dog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dog.json; sourceTree = "<group>"; };
 		4604B052271E80C000CDFBD9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		46372D6B27424BDF0073E03D /* sumbOfNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumbOfNumber.swift; sourceTree = "<group>"; };
+		46372D6B27424BDF0073E03D /* sumOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumOfNumbers.swift; sourceTree = "<group>"; };
 		46372D6E2742523D0073E03D /* Dia_mond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dia_mond.swift; sourceTree = "<group>"; };
+		46372D71274258F60073E03D /* peaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peaks.swift; sourceTree = "<group>"; };
 		46FDAD6B27390EEA00590987 /* ScoreCal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCal.swift; sourceTree = "<group>"; };
 		46FDAD6E2739123000590987 /* Palindrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrom.swift; sourceTree = "<group>"; };
 		46FDAD732739136A00590987 /* numFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numFilter.swift; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		4604B028271D5FBC00CDFBD9 /* Algorithm-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				46372D70274258DE0073E03D /* peaks */,
 				46372D6D274251F40073E03D /* Dia_mond */,
 				46372D6A27424B1B0073E03D /* SumOfNumber */,
 				46FDAD752739196A00590987 /* cardReverse */,
@@ -99,7 +101,7 @@
 		46372D6A27424B1B0073E03D /* SumOfNumber */ = {
 			isa = PBXGroup;
 			children = (
-				46372D6B27424BDF0073E03D /* sumbOfNumber.swift */,
+				46372D6B27424BDF0073E03D /* sumOfNumbers.swift */,
 			);
 			path = SumOfNumber;
 			sourceTree = "<group>";
@@ -110,6 +112,14 @@
 				46372D6E2742523D0073E03D /* Dia_mond.swift */,
 			);
 			path = Dia_mond;
+			sourceTree = "<group>";
+		};
+		46372D70274258DE0073E03D /* peaks */ = {
+			isa = PBXGroup;
+			children = (
+				46372D71274258F60073E03D /* peaks.swift */,
+			);
+			path = peaks;
 			sourceTree = "<group>";
 		};
 		46FDAD6A27390EDC00590987 /* ScoreCal */ = {
@@ -203,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46372D6F2742523D0073E03D /* Dia_mond.swift in Sources */,
+				46372D72274258F60073E03D /* peaks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
