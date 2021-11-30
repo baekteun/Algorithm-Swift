@@ -15,11 +15,10 @@ print(res)
 
 func isPalin(_ str: String) -> Bool{
     let arr = str.lowercased().map{String($0)}
-    var res = true
     for i in 0..<arr.count/2{
         if arr[i] != arr[arr.count-1-i]{
-            res = false
+            return false
         }
     }
-    return res
+    return true
 }

@@ -19,9 +19,6 @@ for _ in 0..<t{isPeaks.append(Array(repeating: false, count: t))}
 
 for i in 0..<t{
     for k in 0..<t{
-        if isPeaks[i][k]{
-            continue
-        }
         var flag = true
         for m in 0..<4{
             let nx = i + dx[m]
@@ -29,7 +26,7 @@ for i in 0..<t{
             if nx >= t || ny >= t || nx < 0 || ny < 0{
                 continue
             }
-            if input[i][k] <= input[nx][ny]{
+            if input[i][k] <= input[nx][ny] || isPeaks[nx][ny]{
                 flag = false
                 break
             }
